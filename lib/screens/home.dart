@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_11/models/product.dart';
-import 'package:flutter_application_11/screens/details.dart';
 import 'package:flutter_application_11/screens/details1.dart';
 import 'package:flutter_application_11/utils/const.dart';
 
@@ -70,6 +69,7 @@ class Home extends StatelessWidget {
                     price: "45"),
               ),
             ),
+            const SizedBox(height: 20),
             GestureDetector(
               onTap: () {
                 Navigator.push(

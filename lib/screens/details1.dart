@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_11/screens/details.dart';
+import 'package:flutter_application_11/screens/details_screen.dart';
 
 class DetailScreen1 extends StatelessWidget {
   const DetailScreen1({super.key});
