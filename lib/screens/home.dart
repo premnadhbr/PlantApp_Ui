@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_11/models/product.dart';
 import 'package:flutter_application_11/screens/details.dart';
+import 'package:flutter_application_11/screens/details1.dart';
 import 'package:flutter_application_11/utils/const.dart';
 
 class Home extends StatelessWidget {
@@ -58,7 +59,7 @@ class Home extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const Details(),
+                      builder: (context) => const DetailScreen1(),
                     ));
               },
               child: const Hero(
@@ -74,7 +75,7 @@ class Home extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const Details(),
+                      builder: (context) => const DetailScreen2(),
                     ));
               },
               child: const Hero(
